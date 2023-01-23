@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-button{
+    
+    width: 100vw;
+    height: auto;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: bl;
+    
+}
+
+.buttons-1{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+.xborg-button{
+    height: 16rem;
+    width: 10rem;
+    background: none;
+    border: none;
+}
+.tigreal-button{
+    height: 16rem;
+    width: 10rem;
+    background: none;
+    border: none;
+    
+}
+.hylos-button{
+    height: 16rem;
+    width: 10rem;
+    background: none;
+    border: none;
+    
+}
+.angela-button{
+    height: 16rem;
+    width: 10rem;
+    background: none;
+    border: none;
+    
+}
+.gatotkaca-button{
+    height: 16rem;
+    width: 10rem;
+    background: none;
+    border: none;
+}
+.uranus-button{
+    height: 16rem;
+    width: 10rem;
+    background: none;
+    border: none;
+    
+}
+.odette-button{
+    height: 16rem;
+    width: 10rem;
+    background: none;
+    border: none;
+    
+}
+.franco-button{
+    height: 16rem;
+    width: 10rem;
+    background: none;
+    border: none;
+    
+}
+@media only screen and (max-width: 500px) {
+    .buttons-1{
+        grid-template-columns: 1fr 1fr ;
+        grid-gap: 40px;
+    }
+    
+}

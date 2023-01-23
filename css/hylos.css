@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.story-body{
+    width: 100vw;
+    height: auto;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(2, 144, 163);
+}
+.Story{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: rgb(0, 0, 0,0.6);
+}
+.hylos-title{
+    color: rgb(65, 233, 255);
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    font-size: 50px;
+    background-color: rgb(0, 0, 0,0.6);
+    width: 40%;
+    height: auto;
+    text-align: center;
+    font-stretch: inherit;
+    z-index: 1;
+    box-shadow: 0px 10px 15px black;
+}
+.hylosimg{
+    position: absolute;
+    left: 40%;
+    padding-left: 40px;
+}
+.title{
+    text-shadow: 0px 2px rgb(0, 41, 53);
+    margin-bottom: 20px;
+}
+.storymain{
+    font-size: 22px;
+    text-shadow: 0px 1px rgb(0, 41, 53);
+    text-align: justify;
+}
+.xtemdeg{
+    position: absolute;
+    color: rgb(62, 184, 255);
+    text-shadow: 0px 1px rgb(0, 36, 56);
+    font-size: 30px;
+    background: none;
+    left: 95%;
+    border: none;
+    z-index: 1;
+}
+@media only screen and (max-width: 500px) {
+    .storymain{
+        font-size: 12px;
+    }
+    .hylos-title{
+        font-size: 30px;
+    }
+    .hylosimg{
+        left: 22%;
+    }
+}

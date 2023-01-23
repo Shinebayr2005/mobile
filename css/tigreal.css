@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.story-body{
+    width: 100vw;
+    height: auto;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(139, 91, 2);
+}
+.Story{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: rgb(0, 0, 0,0.6);
+}
+.tigreal-title{
+    color: rgb(255, 187, 0);
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    font-size: 30px;
+    background-color: rgb(0, 0, 0,0.6);
+    width: 40%;
+    height: auto;
+    text-align: center;
+    font-stretch: inherit;
+    z-index: 1;
+    box-shadow: 0px 10px 15px black;
+}
+.tigrealimg{
+    position: absolute;
+    left: 40%;
+    padding-left: 40px;
+}
+.title{
+    text-shadow: 0px 2px rgb(255, 102, 0);
+    margin-bottom: 20px;
+}
+.storymain{
+    font-size: 8.6px;
+    text-shadow: 0px 1px rgb(255, 153, 0);
+    text-align: justify;
+}
+.xtemdeg{
+    position: absolute;
+    color: rgb(255, 153, 0);
+    text-shadow: 0px 1px rgb(255, 123, 0);
+    font-size: 30px;
+    background: none;
+    left: 95%;
+    border: none;
+    z-index: 1;
+}
+@media only screen and (max-width: 500px) {
+    .storymain{
+        font-size: 6px;
+    }
+    .tigreal-title{
+        font-size: 20px;
+    }
+    .tigrealimg{
+        left: 25%;
+    }
+}
